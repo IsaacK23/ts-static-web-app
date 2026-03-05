@@ -12,6 +12,9 @@ const NavBar: React.FC = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
+              <NavLink className="nav-link" to="/students/count">Number of students</NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink className="nav-link" to="/" end>Home</NavLink>
             </li>
             <li className="nav-item">

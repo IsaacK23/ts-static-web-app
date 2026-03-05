@@ -29,6 +29,6 @@ export async function getStudentById(request: HttpRequest, context: InvocationCo
 app.http('getStudentById', {
     methods: ['GET'],
     authLevel: 'anonymous',
-    route: 'students/{StudentId}',
+    route: 'students/{StudentId:int}',
     handler: getStudentById
 });
